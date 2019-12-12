@@ -29,38 +29,47 @@ body {
   opacity: 0;
 }
 
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
 .box1 {
-  background: url(img/735867.jpg) no-repeat center center;
+  background: url(img/63e398c990.jpg) no-repeat center center;
   background-size: cover;
   animation-delay: 2.7s;
 }
 
 .box2 {
-  background: url(img/735867.jpg) no-repeat center center;
+  background: url(img/702230.png) no-repeat center center;
   background-size: cover;
   animation-delay: 2.2s;
 }
 
 .box3 {
-  background: url(img/735867.jpg) no-repeat center center;
+  background: url(img/794041.png) no-repeat center center;
   background-size: cover;
   animation-delay: 1.7s;
 }
 
 .box4 {
-  background: url(img/735867.jpg) no-repeat center center;
+  background: url(img/GNsMpCV.jpg) no-repeat center center;
   background-size: cover;
   animation-delay: 1.2s;
 }
 
 .box5 {
-  background: url(img/735867.jpg) no-repeat center center;
+  background: url(img/6a87e14ac999.jpg) no-repeat center center;
   background-size: cover;
   animation-delay: 0.7s;
 }
 
 .box6 {
-  background: url(img/735867.jpg) no-repeat center center;
+  background: url(img/5bfb522057e875c7e.png) no-repeat center center;
   background-size: cover;
   animation-delay: 1.2s;
 }
@@ -72,13 +81,13 @@ body {
 }
 
 .box8 {
-  background: url(img/735867.jpg) no-repeat center center;
+  background: url(img/561ae4de2.jpg) no-repeat center center;
   background-size: cover;
   animation-delay: 2.2s;
 }
 
 .box9 {
-  background: url(img/735867.jpg) no-repeat center center;
+  background: url(img/458ba2d07.jpg) no-repeat center center;
   background-size: cover;
   animation-delay: 2.7s;
 }
@@ -125,20 +134,20 @@ body {
 }
 
 .card1::before {
-  background: url(img/card/archer.jpg) no-repeat center top;
+  background: url(img/card/caster.jpg) no-repeat center top;
   background-size: cover;
 }
 .card1::after {
-  background: url(img/card/archer.jpg) no-repeat center bottom;
+  background: url(img/card/caster.jpg) no-repeat center bottom;
   background-size: cover;
 }
 
 .card2::before {
-  background: url(img/card/archer.jpg) no-repeat center top;
+  background: url(img/card/saber.jpg) no-repeat center top;
   background-size: cover;
 }
 .card2::after {
-  background: url(img/card/archer.jpg) no-repeat center bottom;
+  background: url(img/card/saber.jpg) no-repeat center bottom;
   background-size: cover;
 }
 
@@ -152,63 +161,55 @@ body {
 }
 
 .card4::before {
-  background: url(img/card/archer.jpg) no-repeat center top;
+  background: url(img/card/lancer.jpg) no-repeat center top;
   background-size: cover;
 }
 .card4::after {
-  background: url(img/card/archer.jpg) no-repeat center bottom;
+  background: url(img/card/lancer.jpg) no-repeat center bottom;
   background-size: cover;
 }
 
 .card5::before {
-  background: url(img/card/archer.jpg) no-repeat center top;
+  background: url(img/card/rider.jpg) no-repeat center top;
   background-size: cover;
 }
 .card5::after {
-  background: url(img/card/archer.jpg) no-repeat center bottom;
+  background: url(img/card/rider.jpg) no-repeat center bottom;
   background-size: cover;
 }
 
 .card6::before {
-  background: url(img/card/archer.jpg) no-repeat center top;
+  background: url(img/card/caster.jpg) no-repeat center top;
   background-size: cover;
 }
 .card6::after {
-  background: url(img/card/archer.jpg) no-repeat center bottom;
+  background: url(img/card/caster.jpg) no-repeat center bottom;
   background-size: cover;
 }
 
 .card7::before {
-  background: url(img/card/archer.jpg) no-repeat center top;
+  background: url(img/card/assassin.jpg) no-repeat center top;
   background-size: cover;
 }
 .card7::after {
-  background: url(img/card/archer.jpg) no-repeat center bottom;
+  background: url(img/card/assassin.jpg) no-repeat center bottom;
   background-size: cover;
 }
 
 .card8::before {
-  background: url(img/card/archer.jpg) no-repeat center top;
+  background: url(img/card/berseker.jpg) no-repeat center top;
   background-size: cover;
 }
 .card8::after {
-  background: url(img/card/archer.jpg) no-repeat center bottom;
+  background: url(img/card/berseker.jpg) no-repeat center bottom;
   background-size: cover;
 }
 
 .card9::before {
-  background: url(img/card/archer.jpg) no-repeat center top;
+  background: url(img/card/ruler.jpg) no-repeat center top;
   background-size: cover;
 }
 .card9::after {
-  background: url(img/card/archer.jpg) no-repeat center bottom;
+  background: url(img/card/ruler.jpg) no-repeat center bottom;
   background-size: cover;
-}
-@keyframes fadeInAnimation {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
 }
