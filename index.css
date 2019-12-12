@@ -22,11 +22,66 @@ body {
   position: relative;
   width: 180px;
   height: 230px;
-  background: url(img/735867.jpg) no-repeat center center;
-  background-size: cover;
   margin: 0 5px;
+  animation: fadeInAnimation ease-in-out 1;
+  animation-fill-mode: forwards;
+  animation-duration: 1s;
+  opacity: 0;
 }
 
+.box1 {
+  background: url(img/735867.jpg) no-repeat center center;
+  background-size: cover;
+  animation-delay: 2.7s;
+}
+
+.box2 {
+  background: url(img/735867.jpg) no-repeat center center;
+  background-size: cover;
+  animation-delay: 2.2s;
+}
+
+.box3 {
+  background: url(img/735867.jpg) no-repeat center center;
+  background-size: cover;
+  animation-delay: 1.7s;
+}
+
+.box4 {
+  background: url(img/735867.jpg) no-repeat center center;
+  background-size: cover;
+  animation-delay: 1.2s;
+}
+
+.box5 {
+  background: url(img/735867.jpg) no-repeat center center;
+  background-size: cover;
+  animation-delay: 0.7s;
+}
+
+.box6 {
+  background: url(img/735867.jpg) no-repeat center center;
+  background-size: cover;
+  animation-delay: 1.2s;
+}
+
+.box7 {
+  background: url(img/735867.jpg) no-repeat center center;
+  background-size: cover;
+  animation-delay: 1.7s;
+}
+
+.box8 {
+  background: url(img/735867.jpg) no-repeat center center;
+  background-size: cover;
+  animation-delay: 2.2s;
+}
+
+.box9 {
+  background: url(img/735867.jpg) no-repeat center center;
+  background-size: cover;
+  animation-delay: 2.7s;
+}
 .reveal {
   position: absolute;
   top: 50%;
@@ -71,4 +126,13 @@ body {
 
 .box:hover .card::after {
   transform: rotateX(90deg) translateY(50%);
+}
+
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
