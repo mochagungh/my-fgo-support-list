@@ -4,20 +4,27 @@ body {
   background: url(img/aaib8cgjd9u21.png) no-repeat center center fixed;
   background-size: cover;
   height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .wrapper {
+  /* margin: auto; */
   border: 2px solid deeppink;
-  width: 60vw;
+  width: 90vw;
   height: 80vh;
+  display: flex;
+  align-items: center;
 }
 
 .box {
   position: relative;
   width: 180px;
-  height: 307px;
+  height: 233px;
   background: url(img/735867.jpg) no-repeat center center;
   background-size: cover;
+  margin: 0 10px;
 }
 
 .about {
@@ -43,7 +50,7 @@ body {
   background: url(img/card/archer.jpg) no-repeat center top;
   background-size: cover;
   transform-origin: top;
-  transition: 500ms;
+  transition: all cubic-bezier(1, 0, 0, 1) 600ms;
 }
 
 .box:hover .img::before {
@@ -59,7 +66,7 @@ body {
   background: url(img/card/archer.jpg) no-repeat center bottom;
   background-size: cover;
   transform-origin: bottom;
-  transition: 500ms;
+  transition: all cubic-bezier(1, 0, 0, 1) 600ms;
 }
 
 .box:hover .img::after {
